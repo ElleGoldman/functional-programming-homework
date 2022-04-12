@@ -18,8 +18,9 @@ const arr = [
 //     });
 //     console.log(arr);
 
+
 // Sort by name dsc
-arr.sort(function (a, b) {
+arr.sort((a, b) => {
         if (a.name < b.name) {
             return 1;
         }
